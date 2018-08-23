@@ -1,0 +1,26 @@
+{
+  "name": "@budarin/simple-text",
+  "version": "1.0.1",
+  "description": "simple text component",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel lib -d build",
+    "build:watch": "babel lib -w -d build",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Budarin",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.2",
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "@babel/preset-react": "^7.0.0-rc.2",
+    "babel-loader": "^7.1.5",
+    "react": "^16.4.2"
+  }
+}
