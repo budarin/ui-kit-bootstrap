@@ -4,7 +4,6 @@
   "description": "simple styles",
   "scripts": {
     "publish": "npm publish",
-    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vadim Budarin",
