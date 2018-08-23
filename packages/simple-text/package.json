@@ -1,6 +1,6 @@
 {
   "name": "@budarin/simple-text",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "simple text component",
   "main": "dist/index.js",
   "scripts": {
