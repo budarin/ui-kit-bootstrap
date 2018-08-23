@@ -5,7 +5,7 @@ class SimpleButton extends React.Component {
   render() {
     return (
       <button>
-          <SimpleText>button</SimpleText>
+          <SimpleText>Simple button</SimpleText>
       </button>
     );
   }
