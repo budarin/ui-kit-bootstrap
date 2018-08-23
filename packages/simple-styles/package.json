@@ -1,6 +1,6 @@
 {
   "name": "@budarin/simple-styles",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "simple styles",
   "scripts": {
     "publish": "npm publish",

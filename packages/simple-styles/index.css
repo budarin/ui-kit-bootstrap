@@ -1,4 +1,4 @@
-body {
+:global body {
     color: black;
 }
 :local .hello {
