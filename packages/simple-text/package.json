@@ -21,7 +21,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.2",
     "@babel/preset-env": "^7.0.0-rc.2",
     "@babel/preset-react": "^7.0.0-rc.2",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^7.1.5"
   },
   "publishConfig": {
     "access": "public"
