@@ -1,6 +1,6 @@
 {
   "name": "@budarin/simple-text",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "simple text component",
   "main": "dist/index.js",
   "scripts": {
@@ -22,5 +22,8 @@
     "@babel/preset-react": "^7.0.0-rc.2",
     "babel-loader": "^7.1.5",
     "react": "^16.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
