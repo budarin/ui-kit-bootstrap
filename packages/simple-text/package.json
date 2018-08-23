@@ -1,12 +1,12 @@
 {
   "name": "@budarin/simple-text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple text component",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel lib -d build",
     "build:watch": "babel lib -w -d build",
-    "publish": "npm publish --access=public",
+    "publish": "npm publish",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

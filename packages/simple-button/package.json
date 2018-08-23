@@ -1,6 +1,6 @@
 {
   "name": "@budarin/simple-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple button component",
   "main": "dist/index.js",
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "babel lib -d build",
     "build:watch": "babel lib -w -d build",
-    "publish": "npm publish --access=public",
+    "publish": "npm publish",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
