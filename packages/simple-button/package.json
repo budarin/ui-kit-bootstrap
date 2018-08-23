@@ -32,5 +32,13 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "budarin",
+    "ui-kit",
+    "bootstrap",
+    "react",
+    "simple component",
+    "button"
+  ]
 }
