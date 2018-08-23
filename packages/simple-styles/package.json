@@ -2,7 +2,6 @@
   "name": "@budarin/simple-styles",
   "version": "1.0.2",
   "description": "simple styles",
-  "main": "index.css",
   "scripts": {
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
