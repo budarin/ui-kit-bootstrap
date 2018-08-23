@@ -1,0 +1,23 @@
+{
+  "name": "@budarin/simple-styles",
+  "version": "1.0.3",
+  "description": "simple styles",
+  "scripts": {
+    "publish": "npm publish",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Budarin",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "budarin",
+    "ui-kit",
+    "bootstrap",
+    "react",
+    "simple styles",
+    "css"
+  ]
+}
