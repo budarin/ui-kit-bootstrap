@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "ui-kit bootstrap",
   "scripts": {
-    "postinstall": "npm audit fix",
+    "postinstall": "npm audit fix && npm run build",
     "clean": "lerna clean --yes",
-    "build": "lerna run build",
+    "build": "lerna run build --parallel --stream",
     "bootstrap": "lerna bootstrap --hoist",
     "publish": "lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1"
