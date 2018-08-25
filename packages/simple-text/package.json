@@ -9,9 +9,10 @@
 	},
 	"bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
 	"main": "lib/index.js",
+	"module": "src/index.js",
 	"scripts": {
 		"build": "babel ./src -d ./lib",
-		"build:webpack": "webpack-cli --mode=production",
+		"build:webpack": "npx webpack-cli --mode=production",
 		"publish": "npm publish",
 		"prepublish": "npm run build",
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -20,19 +21,6 @@
 	"license": "ISC",
 	"peerDependencies": {
 		"react": "^16.4.2"
-	},
-	"devDependencies": {
-		"@babel/cli": "^7.0.0-rc.3",
-		"@babel/core": "^7.0.0-rc.3",
-		"@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
-		"@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
-		"@babel/preset-env": "^7.0.0-rc.3",
-		"@babel/preset-react": "^7.0.0-rc.3",
-		"babel-core": "^7.0.0-bridge.0",
-		"babel-loader": "^7.1.5",
-		"react": "^16.4.2",
-		"webpack": "^4.17.1",
-		"webpack-cli": "^3.1.0"
 	},
 	"publishConfig": {
 		"access": "public"
