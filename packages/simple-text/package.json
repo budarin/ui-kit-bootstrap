@@ -11,7 +11,7 @@
 	"main": "lib/index.js",
 	"scripts": {
 		"build": "babel ./src -d ./lib",
-		"build:watch": "webpack",
+		"build:webpack": "webpack-cli --mode=production",
 		"publish": "npm publish",
 		"prepublish": "npm run build",
 		"test": "echo \"Error: no test specified\" && exit 1"
