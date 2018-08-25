@@ -9,7 +9,6 @@
 	},
 	"bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
 	"main": "lib/index.js",
-	"module": "src/index.js",
 	"scripts": {
 		"build": "babel ./src -d ./lib",
 		"build:webpack": "npx webpack-cli --mode=production",
@@ -32,5 +31,18 @@
 		"react",
 		"simple component",
 		"text"
-	]
+	],
+	"devDependencies": {
+		"@babel/cli": "^7.0.0-rc.3",
+		"@babel/core": "^7.0.0-rc.3",
+		"@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
+		"@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
+		"@babel/preset-env": "^7.0.0-rc.3",
+		"@babel/preset-react": "^7.0.0-rc.3",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-loader": "^7.1.5",
+		"react": "^16.4.2",
+		"webpack": "^4.17.1",
+		"webpack-cli": "^3.1.0"
+	}
 }
