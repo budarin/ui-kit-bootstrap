@@ -10,8 +10,7 @@
   "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel ./src -d ./lib",
-    "build:webpack": "npx webpack-cli --mode=production",
+    "build": "webpack-cli --mode=production",
     "publish": "npm publish",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
