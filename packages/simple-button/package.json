@@ -1,6 +1,6 @@
 {
   "name": "@budarin/simple-button",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "simple button component",
   "homepage": "https://github.com/budarin/ui-kit-bootstrap",
   "repository": {
@@ -38,7 +38,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
     "@babel/preset-env": "^7.0.0-rc.3",
     "@babel/preset-react": "^7.0.0-rc.3",
-    "@budarin/simple-text": "^1.0.5",
+    "@budarin/simple-text": "^1.0.8",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^7.1.5",
     "react": "^16.4.2",
