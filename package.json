@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ui-kit bootstrap",
   "scripts": {
+    "clean": "lerna clean --yes",
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -9,4 +9,6 @@
     "git.confirmSync": false,
     "npm.enableScriptExplorer": true,
     "eslint.enable": false,
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 1000,
 }

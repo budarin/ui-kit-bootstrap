@@ -1,3 +1,4 @@
 .babelrc
+src
 webpack.config.js
 tests
