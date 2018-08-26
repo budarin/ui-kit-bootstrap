@@ -1,4 +1,7 @@
-var path = require('path');
+const path = require('path');
+const OptimizeJsPlugin = require('optimize-js-plugin');
+const MinifyPlugin = require('babel-minify-webpack-plugin');
+
 module.exports = {
   cache: true,
   mode: 'production',
@@ -9,6 +12,10 @@ module.exports = {
     library: 'simple-text',
     libraryTarget: 'commonjs2' // THIS IS THE MOST IMPORTANT LINE! :mindblow: I wasted more than 2 days until realize this was the line most important in all this guide.
   },
+  optimization: {
+    occurrenceOrder: true,
+    minimizer: [new MinifyPlugin(), new OptimizeJsPlugin()],
+},
   module: {
     rules: [
       {
