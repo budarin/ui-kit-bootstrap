@@ -8,6 +8,7 @@
     "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
   },
   "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
+  "main": "index.css",
   "style": "index.css",
   "scripts": {
     "publish": "npm publish",
