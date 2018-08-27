@@ -17,9 +17,6 @@
     },
     "author": "Vadim Budarin",
     "license": "ISC",
-    "peerDependencies": {
-        "react": "^16.4.2"
-    },
     "publishConfig": {
         "access": "public"
     },
@@ -31,6 +28,9 @@
         "simple component",
         "text"
     ],
+    "peerDependencies": {
+        "react": "^16.4.2"
+    },
     "devDependencies": {
         "@babel/cli": "^7.0.0-rc.3",
         "@babel/core": "^7.0.0-rc.3",
@@ -40,8 +40,6 @@
         "@babel/preset-react": "^7.0.0-rc.3",
         "babel-core": "^7.0.0-bridge.0",
         "babel-loader": "^7.1.5",
-        "babel-minify-webpack-plugin": "^0.3.1",
-        "optimize-js-plugin": "0.0.4",
         "react": "^16.4.2",
         "webpack": "^4.17.1",
         "webpack-cli": "^3.1.0"
