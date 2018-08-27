@@ -1,6 +1,7 @@
 :global body {
     color: black;
 }
-:local .hello {
+
+.hello {
     color: cornflowerblue;
 }
