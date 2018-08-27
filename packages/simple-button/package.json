@@ -45,6 +45,6 @@
         "webpack-cli": "^3.1.0"
     },
     "dependencies": {
-        "@budarin/simple-text": "^1.0.9"
+        "@budarin/simple-text": "^1.0.10"
     }
 }
