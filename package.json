@@ -1,47 +1,47 @@
 {
-  "name": "ui-kit-bootstrap",
-  "version": "1.0.0",
-  "description": "ui-kit bootstrap",
-  "scripts": {
-    "clean": "lerna clean --yes",
-    "prebuild": "npm run clean",
-    "build": "lerna run build --parallel --stream",
-    "bootstrap": "lerna bootstrap --hoist",
-    "publish": "lerna publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
-  },
-  "keywords": [
-    "ui-kit",
-    "bootstrap"
-  ],
-  "author": "Vadim Budarin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/budarin/ui-kit-bootstrap/issues"
-  },
-  "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.0.0-rc.3",
-    "@babel/core": "^7.0.0-rc.3",
-    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
-    "@babel/preset-env": "^7.0.0-rc.3",
-    "@babel/preset-react": "^7.0.0-rc.3",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-loader": "^7.1.5",
-    "babel-minify-webpack-plugin": "^0.3.1",
-    "jest": "^23.5.0",
-    "lerna": "^3.1.4",
-    "optimize-js-plugin": "0.0.4",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "storybook": "^1.0.0",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
-  },
-  "dependencies": {}
+    "name": "ui-kit-bootstrap",
+    "version": "1.0.0",
+    "description": "ui-kit bootstrap",
+    "scripts": {
+        "clean": "lerna clean --yes",
+        "prebuild": "npm run clean",
+        "build": "lerna run build --parallel --stream",
+        "bootstrap": "lerna bootstrap --hoist",
+        "publish": "lerna publish",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
+    },
+    "keywords": [
+        "ui-kit",
+        "bootstrap"
+    ],
+    "author": "Vadim Budarin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/budarin/ui-kit-bootstrap/issues"
+    },
+    "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.0.0-rc.3",
+        "@babel/core": "^7.0.0-rc.3",
+        "@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
+        "@babel/preset-env": "^7.0.0-rc.3",
+        "@babel/preset-react": "^7.0.0-rc.3",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-loader": "^7.1.5",
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "jest": "^23.5.0",
+        "lerna": "^3.1.4",
+        "optimize-js-plugin": "0.0.4",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "storybook": "^1.0.0",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0"
+    },
+    "dependencies": {}
 }

@@ -1,49 +1,49 @@
 {
-	"name": "@budarin/simple-text",
-	"version": "1.0.9",
-	"description": "simple text component",
-	"homepage": "https://github.com/budarin/ui-kit-bootstrap",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
-	},
-	"bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
-	"main": "lib/index.js",
-	"scripts": {
-		"build": "webpack-cli --mode=production",
-		"publish": "npm publish",
-		"prepublish": "npm run build",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "Vadim Budarin",
-	"license": "ISC",
-	"peerDependencies": {
-		"react": "^16.4.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"keywords": [
-		"budarin",
-		"ui-kit",
-		"bootstrap",
-		"react",
-		"simple component",
-		"text"
-	],
-	"devDependencies": {
-		"@babel/cli": "^7.0.0-rc.3",
-		"@babel/core": "^7.0.0-rc.3",
-		"@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
-		"@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
-		"@babel/preset-env": "^7.0.0-rc.3",
-		"@babel/preset-react": "^7.0.0-rc.3",
-		"babel-core": "^7.0.0-bridge.0",
-		"babel-loader": "^7.1.5",
-		"babel-minify-webpack-plugin": "^0.3.1",
-		"optimize-js-plugin": "0.0.4",
-		"react": "^16.4.2",
-		"webpack": "^4.17.1",
-		"webpack-cli": "^3.1.0"
-	}
+    "name": "@budarin/simple-text",
+    "version": "1.0.9",
+    "description": "simple text component",
+    "homepage": "https://github.com/budarin/ui-kit-bootstrap",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
+    },
+    "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "webpack-cli --mode=production",
+        "publish": "npm publish",
+        "prepublish": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vadim Budarin",
+    "license": "ISC",
+    "peerDependencies": {
+        "react": "^16.4.2"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "budarin",
+        "ui-kit",
+        "bootstrap",
+        "react",
+        "simple component",
+        "text"
+    ],
+    "devDependencies": {
+        "@babel/cli": "^7.0.0-rc.3",
+        "@babel/core": "^7.0.0-rc.3",
+        "@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
+        "@babel/preset-env": "^7.0.0-rc.3",
+        "@babel/preset-react": "^7.0.0-rc.3",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-loader": "^7.1.5",
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "optimize-js-plugin": "0.0.4",
+        "react": "^16.4.2",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0"
+    }
 }

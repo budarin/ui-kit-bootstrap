@@ -1,30 +1,30 @@
 {
-  "name": "@budarin/simple-styles",
-  "version": "1.0.10",
-  "description": "simple styles",
-  "homepage": "https://github.com/budarin/ui-kit-bootstrap",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
-  },
-  "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
-  "main": "index.css",
-  "style": "index.css",
-  "scripts": {
-    "publish": "npm publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Vadim Budarin",
-  "license": "ISC",
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [
-    "budarin",
-    "ui-kit",
-    "bootstrap",
-    "react",
-    "simple styles",
-    "css"
-  ]
+    "name": "@budarin/simple-styles",
+    "version": "1.0.10",
+    "description": "simple styles",
+    "homepage": "https://github.com/budarin/ui-kit-bootstrap",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
+    },
+    "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
+    "main": "index.css",
+    "style": "index.css",
+    "scripts": {
+        "publish": "npm publish",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vadim Budarin",
+    "license": "ISC",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "budarin",
+        "ui-kit",
+        "bootstrap",
+        "react",
+        "simple styles",
+        "css"
+    ]
 }
