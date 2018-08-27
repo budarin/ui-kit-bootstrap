@@ -5,6 +5,7 @@
   "scripts": {
     "postinstall": "npm audit fix && npm run bootstrap && npm run build",
     "clean": "lerna clean --yes",
+    "prebuild": "npm run clean",
     "build": "lerna run build --parallel --stream",
     "bootstrap": "lerna bootstrap --hoist",
     "publish": "lerna publish",
