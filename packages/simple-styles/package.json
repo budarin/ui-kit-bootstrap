@@ -1,6 +1,6 @@
 {
   "name": "@budarin/simple-styles",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "simple styles",
   "homepage": "https://github.com/budarin/ui-kit-bootstrap",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
   },
   "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
+  "main": "index.css",
   "style": "index.css",
   "scripts": {
     "publish": "npm publish",
