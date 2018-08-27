@@ -1,9 +1,9 @@
-# @budarin/simple-text
-Simple text component
+# @budarin/simple-button
+Simple button component
 
 Installation:
 ```bash
-npm i --save-dev @budarin/simple-text
+npm i --save-dev @budarin/simple-button
 ```
 
 Usage:
