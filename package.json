@@ -4,7 +4,6 @@
     "description": "ui-kit bootstrap",
     "scripts": {
         "clean": "lerna clean --yes",
-        "prebuild": "npm run clean",
         "build": "lerna run build --parallel --stream",
         "bootstrap": "lerna bootstrap --hoist",
         "publish": "lerna publish",
