@@ -8,6 +8,6 @@ npm i --save-dev @budarin/simple-styles
 
 Usage:
 ```js
-import styles from '@budarin/simple-styles/index.css';
+import styles from '@budarin/simple-styles';
 
 ```
