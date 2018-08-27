@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "ui-kit bootstrap",
   "scripts": {
-    "postinstall": "npm audit fix && npm run bootstrap && npm run build",
     "clean": "lerna clean --yes",
     "prebuild": "npm run clean",
     "build": "lerna run build --parallel --stream",
