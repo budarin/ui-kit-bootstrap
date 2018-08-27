@@ -11,7 +11,6 @@
     "main": "lib/index.js",
     "scripts": {
         "build": "babel src -d lib --ignore *.test.js",
-        "publish": "npm publish",
         "prepublish": "npm run build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
