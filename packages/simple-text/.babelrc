@@ -11,17 +11,5 @@
         ],
         "@babel/preset-react"
     ],
-    "plugins": ["@babel/plugin-proposal-class-properties", "@babel/plugin-proposal-object-rest-spread"],
-    "env": {
-        "es": {
-            "presets": [
-                "@babel/preset-env",
-                {
-                    "debug": true,
-                    "useBuiltIns": "usage",
-                    "modules": false
-                }
-            ]
-        }
-    }
+    "plugins": ["@babel/plugin-proposal-class-properties", "@babel/plugin-proposal-object-rest-spread"]
 }
