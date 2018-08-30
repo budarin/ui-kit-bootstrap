@@ -2,6 +2,7 @@
     "git.autofetch": true,
     "workbench.iconTheme": "vs-nomo-dark",
     "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
     "workbench.colorTheme": "Plastic",
     "workbench.statusBar.feedback.visible": false,
     "workbench.sideBar.location": "left",
