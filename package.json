@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "ui-kit bootstrap",
     "scripts": {
-        "clean": "lerna clean --yes",
+        "clean": "lerna clean --yes && lerna exec -- rm -rf ./lib --parallel",
         "build": "lerna run build --parallel --stream",
         "bootstrap": "lerna bootstrap --hoist",
         "publish": "lerna publish",
@@ -37,6 +37,7 @@
         "lerna": "^3.2.1",
         "react": "^16.4.2",
         "react-dom": "^16.4.2",
+        "rimraf": "^2.6.2",
         "storybook": "^1.0.0",
         "webpack": "^4.17.1",
         "webpack-cli": "^3.1.0"
