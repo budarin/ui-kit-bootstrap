@@ -3,7 +3,10 @@
     "command": {
         "publish": {
             "ignoreChanges": ["*.md", "test/**"]
-        }
+        },
+        "bootstrap": {
+            "npmClientArgs": ["--no-lockfile"]      
+          }
     },
     "version": "independent"
 }
