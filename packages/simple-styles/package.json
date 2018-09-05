@@ -1,6 +1,6 @@
 {
     "name": "@budarin/simple-styles",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "simple styles",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
@@ -24,12 +24,12 @@
         "css"
     ],
     "peerDependencies": {
-        "react": "^16.4.2",
+        "css-loader": "^1.0.0",
+        "fake-style-loader": "^1.0.1",
         "postcss": "^7.0.2",
         "postcss-loader": "^3.0.0",
         "postcss-preset-env": "^5.3.0",
-        "style-loader": "^0.23.0",
-        "css-loader": "^1.0.0",
-        "fake-style-loader": "^1.0.1"
+        "react": "^16.4.2",
+        "style-loader": "^0.23.0"
     }
 }
