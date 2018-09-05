@@ -3,11 +3,12 @@
     "version": "1.0.0",
     "description": "ui-kit bootstrap",
     "scripts": {
-        "clean": "lerna clean --yes",
+        "clean": "lerna clean --yes && lerna exec -- rm -rf ./lib --parallel",
         "build": "lerna run build --parallel --stream",
         "bootstrap": "lerna bootstrap --hoist",
         "publish": "lerna publish",
         "lerna:updated": "lerna updated",
+        "upgrade": "ncu --upgradeAll && npm install",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -25,19 +26,20 @@
     },
     "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
     "devDependencies": {
-        "@babel/cli": "^7.0.0-rc.3",
-        "@babel/core": "^7.0.0-rc.3",
-        "@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
-        "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.3",
-        "@babel/preset-env": "^7.0.0-rc.3",
-        "@babel/preset-react": "^7.0.0-rc.3",
+        "@babel/cli": "^7.0.0",
+        "@babel/core": "^7.0.0",
+        "@babel/plugin-proposal-class-properties": "^7.0.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/preset-react": "^7.0.0",
         "babel-core": "^7.0.0-bridge.0",
         "jest": "^23.5.0",
-        "lerna": "^3.1.4",
+        "lerna": "^3.2.1",
         "react": "^16.4.2",
         "react-dom": "^16.4.2",
+        "rimraf": "^2.6.2",
         "storybook": "^1.0.0",
-        "webpack": "^4.17.1",
+        "webpack": "^4.17.2",
         "webpack-cli": "^3.1.0"
     },
     "dependencies": {}
