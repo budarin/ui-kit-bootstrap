@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 
 class SimpleText extends React.Component {
-    render(props) {
-        const { children } = props;
+    render() {
+        const { children } = this.props;
 
         return <span>{children}</span>;
     }
