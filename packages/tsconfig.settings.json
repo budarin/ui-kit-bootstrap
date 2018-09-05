@@ -8,6 +8,13 @@
         "strict": true,
         "composite": true,
         "jsx": "react",
-        "importHelpers": false
-    }
+        "importHelpers": false,
+
+        "noUnusedLocals": true /* Report errors on unused locals. */,
+        "noUnusedParameters": true /* Report errors on unused parameters. */,
+        "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+        "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */
+    },
+    "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "lib"]
 }
