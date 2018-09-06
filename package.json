@@ -10,7 +10,8 @@
         "publish": "lerna publish",
         "lerna:updated": "lerna updated",
         "upgrade": "ncu --upgradeAll && npm install",
-        "test": "jest"
+        "test": "jest",
+        "test:watch": "jest --watch"
     },
     "repository": {
         "type": "git",
