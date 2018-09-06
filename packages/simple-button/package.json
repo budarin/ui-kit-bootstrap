@@ -21,8 +21,8 @@
         "bootstrap",
         "react",
         "typescript",
-        "simple component",
-        "button"
+        "button",
+        "simple component"
     ],
     "peerDependencies": {
         "css-loader": "^1.0.0",
