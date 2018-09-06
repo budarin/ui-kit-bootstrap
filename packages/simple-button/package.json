@@ -11,7 +11,7 @@
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "author": "Vadim Budarin",
-    "license": "ISC",
+    "license": "MIT",
     "publishConfig": {
         "access": "public"
     },

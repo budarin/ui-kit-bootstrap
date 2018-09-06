@@ -11,7 +11,7 @@
     "main": "./index.css",
     "style": "./index.css",
     "author": "Vadim Budarin",
-    "license": "ISC",
+    "license": "MIT",
     "publishConfig": {
         "access": "public"
     },
