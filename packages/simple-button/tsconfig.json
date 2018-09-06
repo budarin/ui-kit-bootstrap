@@ -4,6 +4,9 @@
         "rootDir": "src",
         "outDir": "lib"
     },
+    "include": [
+        "src", "../types.d.ts"
+    ],
     "references": [
         {
           "path": "../simple-text/"
