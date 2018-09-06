@@ -15,6 +15,6 @@ import React from 'react';
 import Button from '@budarin/simple-button';
 
 function SimpeApp() {
-    return (<Button text="button" />>);
+    return <Button text="button" />;
 }
 ```
