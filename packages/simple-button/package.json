@@ -1,6 +1,6 @@
 {
     "name": "@budarin/simple-button",
-    "version": "1.0.20",
+    "version": "1.0.21",
     "description": "simple button component",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
@@ -34,10 +34,10 @@
         "style-loader": "^0.23.0"
     },
     "devDependencies": {
-        "react": "^16.4.2",
-        "@types/react": "^16.4.13"
+        "@types/react": "^16.4.13",
+        "react": "^16.4.2"
     },
     "dependencies": {
-        "@budarin/simple-text": "^1.0.20"
+        "@budarin/simple-text": "^1.0.21"
     }
 }
