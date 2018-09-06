@@ -35,6 +35,5 @@
     "devDependencies": {
         "@types/react": "^16.4.13",
         "react": "^16.4.2"
-    },
-    "gitHead": "d78178254a32c7667854a7d48b5d1596a2d1add3"
+    }
 }
