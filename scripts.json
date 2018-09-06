@@ -1,0 +1,41 @@
+[
+    {
+        "name": "test",
+        "command": "jest --detectOpenHandles --no-cache  --forceExit ",
+        "env": {
+            "NODE_ENV": "test",
+            "__DEV__": true,
+            "__BROWSER__": true
+        }
+    },
+    {
+        "name": "test-watch",
+        "command": "jest --watch --onlyChanged --watchman --forceExit --detectOpenHandles --notify --notifyMode=failure",
+        "env": {
+            "NODE_ENV": "test",
+            "__DEV__": true,
+            "__BROWSER__": true,
+            "JEST_HIDE_USAGE": true
+        }
+    },
+    {
+        "name": "clean",
+        "command": "lerna clean --yes && lerna exec rimraf ./lib  --parallel"
+    },
+    {
+        "name": "build",
+        "command": "lerna exec rimraf ./lib  --parallel && tsc -b packages"
+    },
+    {
+        "name": "prepublish",
+        "command": "npm run bootstrap && npm run build"
+    },
+    {
+        "name": "upgrade",
+        "command": "ncu --upgradeAll && npm install"
+    },
+    {
+        "name": "bootstrap",
+        "command": "lerna bootstrap --hoist"
+    }
+]

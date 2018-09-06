@@ -3,15 +3,15 @@
     "version": "1.0.0",
     "description": "ui-kit bootstrap",
     "scripts": {
-        "clean": "lerna clean --yes && lerna exec rimraf ./lib  --parallel",
-        "build": " lerna exec rimraf ./lib  --parallel && tsc -b packages",
-        "bootstrap": "lerna bootstrap --hoist",
-        "prepublish": "npm run build",
+        "clean": "prun clean",
+        "build": "prun build",
+        "bootstrap": "prun bootstrap",
+        "prepublish": "prun prepublish",
         "publish": "lerna publish",
         "lerna:updated": "lerna updated",
-        "upgrade": "ncu --upgradeAll && npm install",
-        "test": "jest",
-        "test:watch": "jest --watch"
+        "upgrade": "prun upgrade",
+        "test": "prun test",
+        "test:watch": "prun test-watch"
     },
     "repository": {
         "type": "git",
@@ -40,6 +40,7 @@
         "enzyme-to-json": "^3.3.4",
         "jest": "^23.5.0",
         "lerna": "^3.2.1",
+        "prun": "^1.0.1",
         "react": "^16.4.2",
         "react-dom": "^16.4.2",
         "rimraf": "^2.6.2",
