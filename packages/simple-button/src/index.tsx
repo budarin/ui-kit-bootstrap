@@ -2,13 +2,13 @@ import * as React from 'react';
 import SimpleText from '@budarin/simple-text';
 
 // tslint:disable-next-line
-const styles = require('./styles.css');
+const styles = require('../styles.css');
 
 interface IProps {
     text: string;
 }
 
-const css = window ? styles.locals : styles;
+const css = typeof window !== 'undefined' ? styles.locals : styles;
 
 class SimpleButton extends React.Component<IProps> {
     componentDidMount() {
