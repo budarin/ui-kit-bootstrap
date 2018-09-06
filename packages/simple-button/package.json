@@ -38,5 +38,6 @@
     },
     "dependencies": {
         "@budarin/simple-text": "^1.0.18"
-    }
+    },
+    "gitHead": "d78178254a32c7667854a7d48b5d1596a2d1add3"
 }
