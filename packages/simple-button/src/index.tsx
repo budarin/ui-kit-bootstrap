@@ -8,7 +8,7 @@ interface IProps {
     text: string;
 }
 
-const css = __BROWSER__ ? styles.locals : styles;
+const css = process.env.__BROWSER__ ? styles.locals : styles;
 
 class SimpleButton extends React.Component<IProps> {
     componentDidMount() {

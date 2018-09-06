@@ -3,3 +3,5 @@
 # ui-kit-bootstrap
 
 ui kit botstrap project
+
+-   always use process.env.**...** instead of global variables

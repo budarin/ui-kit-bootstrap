@@ -14,8 +14,7 @@
         "env": {
             "NODE_ENV": "test",
             "__DEV__": true,
-            "__BROWSER__": true,
-            "JEST_HIDE_USAGE": true
+            "__BROWSER__": true
         }
     },
     {
@@ -28,7 +27,7 @@
     },
     {
         "name": "prepublish",
-        "command": "npm run bootstrap && npm run build"
+        "command": "npm run bootstrap && prun test && npm run build"
     },
     {
         "name": "upgrade",
