@@ -1,5 +1,5 @@
 {
-    "name": "budarin-simple-button",
+    "name": "@budarin/simple-button",
     "version": "1.1.3",
     "description": "simple button component",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
@@ -32,5 +32,8 @@
     },
     "dependencies": {
         "budarin-simple-text": "^1.1.3"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
