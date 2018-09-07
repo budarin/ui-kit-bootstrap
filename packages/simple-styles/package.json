@@ -1,6 +1,6 @@
 {
-    "name": "@budarin/simple-styles",
-    "version": "1.0.17",
+    "name": "budarin-simple-styles",
+    "version": "1.0.1",
     "description": "simple styles",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
