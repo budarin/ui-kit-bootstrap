@@ -31,7 +31,7 @@
         "react-test-renderer": "^16.5.0"
     },
     "dependencies": {
-        "budarin-simple-text": "^1.1.3"
+        "@budarin/simple-text": "^1.1.4"
     },
     "publishConfig": {
         "access": "public"
