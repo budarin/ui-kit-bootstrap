@@ -2,6 +2,6 @@
 
 exports[`0 should be 0 1`] = `
 <span>
-  'Text'
+  Text
 </span>
 `;
