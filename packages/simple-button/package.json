@@ -12,9 +12,6 @@
     "types": "./lib/index.d.ts",
     "author": "Vadim Budarin",
     "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
     "keywords": [
         "budarin",
         "ui-kit",

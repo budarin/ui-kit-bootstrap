@@ -12,9 +12,6 @@
     "style": "./index.css",
     "author": "Vadim Budarin",
     "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
     "keywords": [
         "budarin",
         "ui-kit",
