@@ -1,6 +1,6 @@
 {
-    "name": "@budarin/simple-button",
-    "version": "1.0.32",
+    "name": "budarin-simple-button",
+    "version": "1.1.3",
     "description": "simple button component",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
@@ -12,9 +12,6 @@
     "types": "./lib/index.d.ts",
     "author": "Vadim Budarin",
     "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
     "keywords": [
         "budarin",
         "ui-kit",
@@ -34,6 +31,6 @@
         "react-test-renderer": "^16.5.0"
     },
     "dependencies": {
-        "@budarin/simple-text": "^1.0.26"
+        "budarin-simple-text": "^1.1.3"
     }
 }

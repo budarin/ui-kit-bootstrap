@@ -4,7 +4,13 @@ exports[`Test Button component 1`] = `
 <button
   className="btn"
 >
-  <span>
+  <span
+    style={
+      Object {
+        "fontStyle": "italic",
+      }
+    }
+  >
     Button
   </span>
 </button>
