@@ -1,7 +1,7 @@
 [
     {
         "name": "test",
-        "command": "jest --detectOpenHandles --no-cache  --forceExit ",
+        "command": "jest --detectOpenHandles --no-cache  --forceExit --runInBand",
         "env": {
             "NODE_ENV": "test",
             "__DEV__": true,

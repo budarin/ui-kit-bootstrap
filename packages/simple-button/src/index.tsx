@@ -2,13 +2,28 @@ import * as React from 'react';
 import SimpleText from '@budarin/simple-text';
 
 // tslint:disable-next-line
-const styles = require('../styles.css');
+let styles = require('../styles.css').default;
+let css: any;
 
 interface IProps {
     text: string;
 }
 
-const css = process.env.__BROWSER__ ? styles.locals : styles;
+if (process.env.NODE_ENV === 'test') {
+    css = {
+        ...styles,
+    };
+    styles = {
+        ...styles,
+        use: () => {},
+        unuse: () => {},
+        locals: { ...styles },
+    };
+}
+
+if (process.env.NODE_ENV !== 'test') {
+    css = process.env.__BROWSER__ ? styles.locals : styles;
+}
 
 class SimpleButton extends React.Component<IProps> {
     componentDidMount() {
