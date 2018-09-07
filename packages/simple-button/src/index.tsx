@@ -2,7 +2,7 @@ import * as React from 'react';
 import SimpleText from '@budarin/simple-text';
 
 // tslint:disable-next-line
-let styles = require('../styles.css').default;
+let styles = require('../styles.css');
 let css: any;
 
 interface IProps {
@@ -11,13 +11,13 @@ interface IProps {
 
 if (process.env.NODE_ENV === 'test') {
     css = {
-        ...styles,
+        ...styles.default,
     };
     styles = {
         ...styles,
         use: () => {},
         unuse: () => {},
-        locals: { ...styles },
+        locals: { ...styles.default },
     };
 }
 
