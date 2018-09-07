@@ -11,7 +11,7 @@
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "author": "Vadim Budarin",
-    "license": "ISC",
+    "license": "MIT",
     "publishConfig": {
         "access": "public"
     },
@@ -20,21 +20,18 @@
         "ui-kit",
         "bootstrap",
         "react",
-        "simple component",
-        "button"
+        "typescript",
+        "button",
+        "simple component"
     ],
     "peerDependencies": {
-        "css-loader": "^1.0.0",
-        "fake-style-loader": "^1.0.1",
-        "postcss": "^7.0.2",
-        "postcss-loader": "^3.0.0",
-        "postcss-preset-env": "^5.3.0",
-        "react": "^16.4.2",
-        "style-loader": "^0.23.0"
+        "react": "^16.4.2"
     },
     "devDependencies": {
         "@types/react": "^16.4.13",
-        "react": "^16.4.2"
+        "@types/react-test-renderer": "^16.0.2",
+        "react": "^16.4.2",
+        "react-test-renderer": "^16.5.0"
     },
     "dependencies": {
         "budarin-simple-text": "^1.0.17"
