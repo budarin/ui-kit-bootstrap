@@ -10,7 +10,6 @@
         "publish": "lerna publish",
         "lerna:updated": "lerna updated",
         "upgrade": "prun upgrade",
-        "check:upgrade": "ncu",
         "test": "prun test",
         "test:watch": "prun test-watch"
     },
@@ -29,7 +28,7 @@
     },
     "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
     "devDependencies": {
-        "@types/jest": "^23.3.1",
+        "@types/jest": "^23.3.2",
         "@types/node": "^10.9.4",
         "@types/react": "^16.4.13",
         "@types/react-dom": "^16.0.7",
