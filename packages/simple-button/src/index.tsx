@@ -9,19 +9,19 @@ interface IProps {
 }
 
 /* istanbul ignore next */
-const css = process.env.__BROWSER__ === 'true' ? styles.locals : styles;
+const css = process.env.__BROWSER__ ? styles.locals : styles;
 
 class SimpleButton extends React.Component<IProps> {
     /* istanbul ignore next */
     componentDidMount() {
-        if (process.env.__BROWSER__ === 'true') {
+        if (process.env.__BROWSER__) {
             styles.use();
         }
     }
 
     /* istanbul ignore next */
     componentWillUnmount() {
-        if (process.env.__BROWSER__ === 'true') {
+        if (process.env.__BROWSER__) {
             styles.unuse();
         }
     }
