@@ -1,5 +1,11 @@
 .btn {
+    border: 1px solid black;
+    border-radius: 2px;
     font-weight: bold;
     line-height: 3em;
     cursor: pointer;
+
+    & :hover {
+        background-color: #ddd;
+    }
 }
