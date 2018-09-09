@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Кнопка должна содержать текст "Button"" 1`] = `
-<button>
+<button
+  className="btn"
+>
   <span
     style={
       Object {
@@ -15,7 +17,9 @@ exports[`Кнопка должна содержать текст "Button"" 1`] =
 `;
 
 exports[`Кнопка должна содержать текст по-умолчанию 1`] = `
-<button>
+<button
+  className="btn"
+>
   <span
     style={
       Object {

@@ -16,10 +16,4 @@ module.exports = {
     },
     collectCoverage: true,
     collectCoverageFrom: ['src/**/*.{ts,tsx}', '!<rootDir>/node_modules/', '!<rootDir>/lib/'],
-    globals: {
-        __DEV__: true,
-        __PROD__: false,
-        __BROWSER__: false,
-        __SERVER__: false,
-    },
 };

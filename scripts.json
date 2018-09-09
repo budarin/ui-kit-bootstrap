@@ -5,7 +5,9 @@
         "env": {
             "NODE_ENV": "test",
             "__DEV__": true,
-            "__BROWSER__": true
+            "__BROWSER__": false,
+            "__PROD__": false,
+            "__SERVER__": false
         }
     },
     {
@@ -14,7 +16,9 @@
         "env": {
             "NODE_ENV": "test",
             "__DEV__": true,
-            "__BROWSER__": true
+            "__BROWSER__": false,
+            "__PROD__": false,
+            "__SERVER__": false
         }
     },
     {
