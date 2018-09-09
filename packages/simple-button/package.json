@@ -25,10 +25,7 @@
         "react": "^16.4.2"
     },
     "devDependencies": {
-        "@types/react": "^16.4.13",
-        "@types/react-test-renderer": "^16.0.2",
-        "react": "^16.4.2",
-        "react-test-renderer": "^16.5.0"
+        "react": "^16.4.2"
     },
     "dependencies": {
         "@budarin/simple-text": "^1.1.6"
