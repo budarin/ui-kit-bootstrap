@@ -5,20 +5,23 @@ import SimpleText from '@budarin/simple-text';
 import styles from '../styles.css';
 
 interface IProps {
-    text: string;
+    text?: string;
 }
 
+/* istanbul ignore next */
 const css = process.env.__BROWSER__ ? styles.locals : styles;
 
 class SimpleButton extends React.Component<IProps> {
+    /* istanbul ignore next */
     componentDidMount() {
-        if (process.env.NODE_ENV !== 'test') {
+        if (__BROWSER__) {
             styles.use();
         }
     }
 
+    /* istanbul ignore next */
     componentWillUnmount() {
-        if (process.env.NODE_ENV !== 'test') {
+        if (__BROWSER__) {
             styles.unuse();
         }
     }

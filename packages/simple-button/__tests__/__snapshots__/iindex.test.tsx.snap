@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Button component 1`] = `
+exports[`Кнопка должна содержать текст "Button"" 1`] = `
 <button>
   <span
     style={
@@ -10,6 +10,20 @@ exports[`Test Button component 1`] = `
     }
   >
     Button
+  </span>
+</button>
+`;
+
+exports[`Кнопка должна содержать текст по-умолчанию 1`] = `
+<button>
+  <span
+    style={
+      Object {
+        "fontStyle": "italic",
+      }
+    }
+  >
+    Simple button
   </span>
 </button>
 `;

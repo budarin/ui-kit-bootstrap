@@ -1,5 +1,4 @@
 {
-    "files": [],
     "references": [
         { "path": "simple-button" },
         { "path": "simple-text" },

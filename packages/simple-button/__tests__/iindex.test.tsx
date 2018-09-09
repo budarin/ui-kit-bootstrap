@@ -2,9 +2,12 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Button from '../src/index';
 
-test('Test Button component', () => {
+test('Кнопка должна содержать текст "Button""', () => {
     const tree = renderer.create(<Button text="Button" />).toJSON();
-
     expect(tree).toMatchSnapshot();
-    expect(0).toBe(0);
+});
+
+test('Кнопка должна содержать текст по-умолчанию', () => {
+    const tree = renderer.create(<Button />).toJSON();
+    expect(tree).toMatchSnapshot();
 });
