@@ -6,7 +6,7 @@ module.exports = {
     },
     testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts?|tsx?)?$',
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-    coveragePathIgnorePatterns: ['(tests/.*.mock).(jsx?||ts?|tsx?)$'],
+    coveragePathIgnorePatterns: ['(tests/.*.mock).(|ts?|tsx?)$'],
     verbose: true,
     testPathIgnorePatterns: ['/__snapshots__/'],
     moduleNameMapper: {
