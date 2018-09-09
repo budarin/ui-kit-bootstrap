@@ -5,3 +5,4 @@
 ui kit botstrap project
 
 -   always use process.env.**...** instead of global variables
+-   always import styles throug require - ts add .default in case import

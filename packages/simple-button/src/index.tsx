@@ -1,13 +1,12 @@
 import * as React from 'react';
 import SimpleText from '@budarin/simple-text';
 
-// @ts-ignore
-import styles from '../styles.css';
-
 interface IProps {
     text?: string;
 }
 
+// tslint:disable-next-line
+const styles = require('../styles.css');
 /* istanbul ignore next */
 const css = process.env.__BROWSER__ ? styles.locals : styles;
 
