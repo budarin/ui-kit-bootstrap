@@ -3,22 +3,14 @@
         "name": "test",
         "command": "jest --detectOpenHandles --no-cache  --forceExit",
         "env": {
-            "NODE_ENV": "test",
-            "__DEV__": true,
-            "__BROWSER__": false,
-            "__PROD__": false,
-            "__SERVER__": false
+            "NODE_ENV": "test"
         }
     },
     {
         "name": "test-watch",
         "command": "jest --watch --onlyChanged --watchman --forceExit --detectOpenHandles --notify --notifyMode=failure",
         "env": {
-            "NODE_ENV": "test",
-            "__DEV__": true,
-            "__BROWSER__": false,
-            "__PROD__": false,
-            "__SERVER__": false
+            "NODE_ENV": "test"
         }
     },
     {
