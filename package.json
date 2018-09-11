@@ -11,7 +11,8 @@
         "lerna:updated": "lerna updated",
         "upgrade": "prun upgrade",
         "test": "prun test",
-        "test:watch": "prun test-watch"
+        "test:watch": "prun test-watch",
+        "type-check": "lerna exec tsc"
     },
     "repository": {
         "type": "git",
