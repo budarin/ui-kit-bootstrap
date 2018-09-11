@@ -1,3 +1,4 @@
+-   storybook or selfwrited web site?
 -   написать свой трансформер для css https://jestjs.io/docs/en/webpack.html исользуя jest-css-modules-transformя
 -   добавить тесты в компоненты
 -   написать stories для компонент или сделать свое приложение ?
