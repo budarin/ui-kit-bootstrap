@@ -12,7 +12,7 @@
         "upgrade": "prun upgrade",
         "test": "prun test",
         "test:watch": "prun test-watch",
-        "type-check": "lerna exec tsc"
+        "type-check": "lerna run type-check"
     },
     "repository": {
         "type": "git",
