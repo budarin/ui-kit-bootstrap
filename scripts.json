@@ -23,7 +23,7 @@
     },
     {
         "name": "prepublish",
-        "command": "npm run bootstrap && prun test && npm run build"
+        "command": "npm run bootstrap && npm run build && prun test"
     },
     {
         "name": "upgrade",
