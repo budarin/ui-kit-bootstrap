@@ -1,17 +1,20 @@
-# @budarin/simple-text
+# simple-text
+
 Simple text component
 
 Installation:
+
 ```bash
-npm i --save-dev @budarin/simple-text
+npm i --save-dev simple-text
 ```
 
 Usage:
+
 ```js
 import React from 'react';
-import SimpleText from '@budarin/simple-text';
+import SimpleText from 'simple-text';
 
 function SimpeApp() {
-    return (<SimpleText>Hello World!</SimpleText>);
+    return <SimpleText>Hello World!</SimpleText>;
 }
 ```

@@ -1,18 +1,18 @@
-# @budarin/simple-button
+# simple-button
 
 Simple button component
 
 Installation:
 
 ```bash
-npm i --save-dev @budarin/simple-button
+npm i --save-dev simple-button
 ```
 
 Usage:
 
 ```js
 import React from 'react';
-import Button from '@budarin/simple-button';
+import Button from 'simple-button';
 
 function SimpeApp() {
     return <Button text="button" />;
