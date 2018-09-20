@@ -29,6 +29,6 @@
         "react-test-renderer": "^16.5.2"
     },
     "dependencies": {
-        "@budarin/simple-text": "^1.1.7"
+        "simple-text": "^1.1.7"
     }
 }
