@@ -25,6 +25,7 @@
         "react": "^16.4.2"
     },
     "devDependencies": {
-        "react": "^16.4.2"
+        "react": "^16.4.2",
+        "react-test-renderer": "^16.5.2"
     }
 }
