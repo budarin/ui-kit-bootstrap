@@ -1,15 +1,15 @@
 {
-    "name": "budarin-simple-button",
+    "name": "budarin-simple-styles",
     "version": "1.2.1",
-    "description": "simple button component",
+    "description": "simple styles",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
     },
     "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
-    "main": "./lib/index.js",
-    "types": "./lib/index.d.ts",
+    "main": "./index.css",
+    "style": "./index.css",
     "author": "Vadim Budarin",
     "license": "MIT",
     "keywords": [
@@ -18,17 +18,10 @@
         "bootstrap",
         "react",
         "typescript",
-        "button",
-        "simple component"
+        "simple styles",
+        "css"
     ],
     "peerDependencies": {
         "react": "^16.5.2"
-    },
-    "devDependencies": {
-        "react": "^16.5.2",
-        "react-test-renderer": "^16.5.2"
-    },
-    "dependencies": {
-        "budarin-simple-text": "^1.2.1"
     }
 }
