@@ -27,7 +27,7 @@
     },
     {
         "name": "upgrade",
-        "command": "npm-upgrade && npm install"
+        "command": "lerna exec npm-upgrade && npm-upgrade && npm install"
     },
     {
         "name": "bootstrap",
