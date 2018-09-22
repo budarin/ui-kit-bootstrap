@@ -15,7 +15,7 @@ module.exports = {
         '\\.(css)$': 'identity-obj-proxy',
     },
     collectCoverage: true,
-    collectCoverageFrom: ['src/**/*.{ts,tsx}', '!<rootDir>/node_modules/', '!<rootDir>/lib/'],
+    collectCoverageFrom: ['**/*.{ts,tsx}', '!**/*.d.ts', '!<rootDir>/lib/'],
     globals: {
         'process.env.__DEV__': true,
         'process.env.__PROD__': false,

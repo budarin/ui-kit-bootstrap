@@ -1,17 +1,17 @@
-# @budarin/simple-styles
+# simple-styles
 
 Simple styles file
 
 Installation:
 
 ```bash
-npm i --save-dev @budarin/simple-styles
+npm i --save-dev simple-styles
 ```
 
 Usage: with style-loader
 
 ```js
-import styles from '@budarin/simple-styles';
+import styles from 'simple-styles';
 ...
 const css = __BROWSER__ ? styles.locals : styles;
 

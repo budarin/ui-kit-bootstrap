@@ -1,5 +1,5 @@
 import * as React from 'react';
-import SimpleText from '@budarin/simple-text';
+import SimpleText from 'budarin-simple-text';
 
 interface IProps {
     text?: string;

@@ -23,11 +23,11 @@
     },
     {
         "name": "prepublish",
-        "command": "npm run bootstrap && prun test && npm run build"
+        "command": "npm run bootstrap && npm run build && prun test"
     },
     {
         "name": "upgrade",
-        "command": "npm-upgrade && npm install"
+        "command": "lerna exec npm-upgrade && npm-upgrade && npm install"
     },
     {
         "name": "bootstrap",
