@@ -1,7 +1,7 @@
 import * as React from 'react';
 import SimpleText from 'budarin-simple-text';
 
-interface IProps extends React.HTMLProps<HTMLInputElement> {
+interface IProps extends React.HTMLProps<HTMLButtonElement> {
     text?: string;
 }
 
@@ -26,10 +26,10 @@ class SimpleButton extends React.Component<IProps> {
     }
 
     render() {
-        const { text = 'Simple button' }: IProps = this.props;
+        const { text = 'Simple button', onClick }: IProps = this.props;
 
         return (
-            <button className={css.btn}>
+            <button className={css.btn} onClick={onClick}>
                 <SimpleText>{text}</SimpleText>
             </button>
         );
