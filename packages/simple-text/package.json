@@ -1,6 +1,6 @@
 {
     "name": "budarin-simple-text",
-    "version": "1.2.7",
+    "version": "1.2.6",
     "description": "simple text component",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
@@ -8,9 +8,6 @@
         "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
     },
     "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
-    "publishConfig": {
-        "registry": "https://www.npmjs.com/"
-    },
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "author": "Vadim Budarin",
