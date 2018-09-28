@@ -1,10 +1,6 @@
 import * as React from 'react';
 
-interface ISimpleTextProps {
-    children?: any;
-}
-
-const SimpleText: React.SFC<ISimpleTextProps> = props => {
+const SimpleText: React.SFC = props => {
     const { children } = props;
     const styles = { fontStyle: 'italic' };
 
