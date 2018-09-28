@@ -7,7 +7,7 @@
         "build": "prun build",
         "bootstrap": "prun bootstrap",
         "prepublish": "prun prepublish",
-        "publish": "lerna publish --registry https://www.npmjs.com/",
+        "publish": "lerna publish",
         "lerna:updated": "lerna updated",
         "test": "prun test",
         "test:watch": "prun test-watch",
