@@ -8,6 +8,9 @@
         "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
     },
     "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
+    "publishConfig": {
+        "registry": "https://www.npmjs.com/"
+    },
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "author": "Vadim Budarin",
