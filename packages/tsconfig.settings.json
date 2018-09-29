@@ -8,9 +8,10 @@
         "sourceMap": true,
         "strict": true,
         "jsx": "react",
+
         "importHelpers": false,
-        "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
 
         "noUnusedLocals": true,
         "noUnusedParameters": true,
