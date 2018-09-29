@@ -9,7 +9,7 @@
         "strict": true,
         "jsx": "react",
 
-        "importHelpers": true,
+        "importHelpers": false,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
 
