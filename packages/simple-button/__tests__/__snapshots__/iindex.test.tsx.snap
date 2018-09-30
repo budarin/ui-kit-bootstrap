@@ -4,7 +4,11 @@ exports[`Кнопка должна содержать текст "Button"" 1`] =
 <button
   className="btn"
 >
-  <test-file-stub />
+  <img
+    height="100px"
+    src="data:image/svg+xml;utf8,test-file-stub"
+    width="100px"
+  />
   <span
     style={
       Object {
@@ -21,7 +25,11 @@ exports[`Кнопка должна содержать текст по-умолч
 <button
   className="btn"
 >
-  <test-file-stub />
+  <img
+    height="100px"
+    src="data:image/svg+xml;utf8,test-file-stub"
+    width="100px"
+  />
   <span
     style={
       Object {

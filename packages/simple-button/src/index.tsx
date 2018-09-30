@@ -8,7 +8,7 @@ interface IProps extends React.HTMLProps<HTMLButtonElement> {
 // tslint:disable-next-line
 const styles = require('../styles.css');
 // tslint:disable-next-line
-const Logo = require('../logo.svg');
+const logo = require('../logo.svg');
 /* istanbul ignore next */
 const css = process.env.__BROWSER__ ? styles.locals : styles;
 
@@ -32,7 +32,7 @@ class SimpleButton extends React.Component<IProps> {
 
         return (
             <button className={css.btn} onClick={onClick}>
-                <Logo />
+                <img src={`data:image/svg+xml;utf8,${logo}`} width="100px" height="100px" />
                 <SimpleText>{text}</SimpleText>
             </button>
         );
