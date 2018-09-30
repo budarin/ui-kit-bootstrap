@@ -5,9 +5,8 @@ exports[`Кнопка должна содержать текст "Button"" 1`] =
   className="btn"
 >
   <img
-    height="100px"
+    className="apple"
     src="data:image/svg+xml;utf8,test-file-stub"
-    width="100px"
   />
   <span
     style={
@@ -26,9 +25,8 @@ exports[`Кнопка должна содержать текст по-умолч
   className="btn"
 >
   <img
-    height="100px"
+    className="apple"
     src="data:image/svg+xml;utf8,test-file-stub"
-    width="100px"
   />
   <span
     style={
