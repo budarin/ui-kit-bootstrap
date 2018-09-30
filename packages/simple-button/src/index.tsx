@@ -32,7 +32,7 @@ class SimpleButton extends React.Component<IProps> {
 
         return (
             <button className={css.btn} onClick={onClick}>
-                <img src={logo} alt="" />
+                {logo}
                 <SimpleText>{text}</SimpleText>
             </button>
         );
