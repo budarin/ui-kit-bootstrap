@@ -4,10 +4,7 @@ exports[`Кнопка должна содержать текст "Button"" 1`] =
 <button
   className="btn"
 >
-  <img
-    alt=""
-    src="test-file-stub"
-  />
+  test-file-stub
   <span
     style={
       Object {
@@ -24,10 +21,7 @@ exports[`Кнопка должна содержать текст по-умолч
 <button
   className="btn"
 >
-  <img
-    alt=""
-    src="test-file-stub"
-  />
+  test-file-stub
   <span
     style={
       Object {
