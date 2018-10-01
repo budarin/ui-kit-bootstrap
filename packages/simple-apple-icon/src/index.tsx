@@ -15,4 +15,6 @@ const SimpleAppleIcon: React.SFC = () => {
     );
 };
 
+SimpleAppleIcon.displayName = 'AppleIcon';
+
 export default SimpleAppleIcon;
