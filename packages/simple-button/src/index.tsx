@@ -1,6 +1,6 @@
 import * as React from 'react';
 import SimpleText from 'budarin-simple-text';
-import Icon from 'budarin-simple-apple-icon';
+import SimpleAppleIcon from 'budarin-simple-apple-icon';
 
 interface IProps extends React.HTMLProps<HTMLButtonElement> {
     text?: string;
@@ -31,7 +31,7 @@ class SimpleButton extends React.Component<IProps> {
 
         return (
             <button className={css.btn} onClick={onClick}>
-                <Icon />
+                <SimpleAppleIcon />
                 <SimpleText>{text}</SimpleText>
             </button>
         );

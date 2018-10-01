@@ -1,7 +1,6 @@
 {
     "files": [], // do not remove!
     "references": [
-        { "path": "simple-button" },
         { "path": "simple-text" },
         { "path": "simple-apple-icon" },
     ]
