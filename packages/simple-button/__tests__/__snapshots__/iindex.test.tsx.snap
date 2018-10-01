@@ -5,7 +5,7 @@ exports[`Кнопка должна содержать текст "Button"" 1`] =
   className="btn"
 >
   <svg
-    className=""
+    className="icon"
     style={
       Object {
         "height": "100px",
@@ -48,7 +48,7 @@ exports[`Кнопка должна содержать текст по-умолч
   className="btn"
 >
   <svg
-    className=""
+    className="icon"
     style={
       Object {
         "height": "100px",
