@@ -1,22 +1,21 @@
 import * as React from 'react';
 
+const emptyString = '';
+const emptyObject = {};
 const styles = { fillRule: 'evenodd', fill: '#74a4c7' };
 
 interface IconProps {
     className?: string;
-    height?: number;
-    width?: number;
     style?: CSSStyleDeclaration;
 }
 
 const SimpleAppleIcon: React.SFC<IconProps> = props => {
-    const { className = '', height = '100px', width = '100px', style = {} } = props;
-    const resultStyle = { ...style, height, width };
+    const { className = emptyString, style = emptyObject } = props;
 
     return (
         <svg
             // @ts-ignore
-            style={resultStyle}
+            style={style}
             className={className}
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
