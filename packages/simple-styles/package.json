@@ -8,8 +8,8 @@
         "url": "git+https://github.com/budarin/ui-kit-bootstrap.git"
     },
     "bugs": "https://github.com/budarin/ui-kit-bootstrap/issues",
-    "main": "./index.css",
-    "style": "./index.css",
+    "main": "index.css",
+    "style": "index.css",
     "author": "Vadim Budarin",
     "license": "MIT",
     "keywords": [
