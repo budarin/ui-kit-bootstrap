@@ -5,6 +5,13 @@ exports[`Кнопка должна содержать текст "Button"" 1`] =
   className="btn"
 >
   <svg
+    className=""
+    style={
+      Object {
+        "height": "100px",
+        "width": "100px",
+      }
+    }
     version="1.1"
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
@@ -41,6 +48,13 @@ exports[`Кнопка должна содержать текст по-умолч
   className="btn"
 >
   <svg
+    className=""
+    style={
+      Object {
+        "height": "100px",
+        "width": "100px",
+      }
+    }
     version="1.1"
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
