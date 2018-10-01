@@ -1,5 +1,6 @@
 import * as React from 'react';
 import SimpleText from 'budarin-simple-text';
+import Icon from 'budarin-simple-apple-icon';
 
 interface IProps extends React.HTMLProps<HTMLButtonElement> {
     text?: string;
@@ -7,8 +8,6 @@ interface IProps extends React.HTMLProps<HTMLButtonElement> {
 
 // tslint:disable-next-line
 const styles = require('../styles.css');
-// tslint:disable-next-line
-const logo = require('../logo.svg');
 /* istanbul ignore next */
 const css = process.env.__BROWSER__ ? styles.locals : styles;
 
@@ -32,7 +31,7 @@ class SimpleButton extends React.Component<IProps> {
 
         return (
             <button className={css.btn} onClick={onClick}>
-                <img className={css.apple} src={`data:image/svg+xml;utf8,${logo}`} />
+                <Icon />
                 <SimpleText>{text}</SimpleText>
             </button>
         );
