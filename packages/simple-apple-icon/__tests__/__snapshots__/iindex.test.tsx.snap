@@ -2,12 +2,18 @@
 
 exports[`0 should be 0 1`] = `
 <svg
+  aria-labelledby="title"
   className=""
   style={Object {}}
   version="1.1"
   viewBox="0 0 100 100"
   xmlns="http://www.w3.org/2000/svg"
 >
+  <title
+    id="title"
+  >
+    Apple Icon
+  </title>
   <g
     transform="translate(0,-952.36218)"
   >

@@ -5,12 +5,18 @@ exports[`Кнопка должна содержать текст "Button"" 1`] =
   className="btn"
 >
   <svg
+    aria-labelledby="title"
     className="icon"
     style={Object {}}
     version="1.1"
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <title
+      id="title"
+    >
+      Apple Icon
+    </title>
     <g
       transform="translate(0,-952.36218)"
     >
@@ -43,12 +49,18 @@ exports[`Кнопка должна содержать текст по-умолч
   className="btn"
 >
   <svg
+    aria-labelledby="title"
     className="icon"
     style={Object {}}
     version="1.1"
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
   >
+    <title
+      id="title"
+    >
+      Apple Icon
+    </title>
     <g
       transform="translate(0,-952.36218)"
     >
