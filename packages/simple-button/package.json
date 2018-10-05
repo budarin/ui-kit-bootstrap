@@ -29,7 +29,7 @@
         "react-test-renderer": "^16.5.2"
     },
     "dependencies": {
-        "budarin-simple-apple-icon": "^1.0.5",
+        "budarin-simple-apple-icon": "^1.0.6",
         "budarin-simple-text": "^1.2.11"
     },
     "scripts": {
