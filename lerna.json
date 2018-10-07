@@ -2,11 +2,11 @@
     "packages": ["packages/*"],
     "command": {
         "publish": {
-            "ignoreChanges": ["*.md", "test/**"]
+            "ignoreChanges": ["*.md", "test/**", "docs/**", "examples/**"]
         },
         "bootstrap": {
-            "npmClientArgs": ["--no-lockfile"]      
-          }
+            "npmClientArgs": ["--no-lockfile"]
+        }
     },
     "version": "independent"
 }
