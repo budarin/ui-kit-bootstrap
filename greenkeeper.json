@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/simple-apple-icon/package.json",
+        "packages/simple-button/package.json",
+        "packages/simple-styles/package.json",
+        "packages/simple-text/package.json"
+      ]
+    }
+  }
+}
