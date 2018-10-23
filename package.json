@@ -29,7 +29,7 @@
     },
     "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
     "devDependencies": {
-        "@types/jest": "^23.3.5",
+        "@types/jest": "^23.3.7",
         "@types/node": "^10.12.0",
         "@types/react": "^16.4.18",
         "@types/react-dom": "^16.0.9",
