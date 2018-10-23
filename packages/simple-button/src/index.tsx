@@ -32,6 +32,7 @@ class SimpleButton extends React.Component<IProps> {
         return (
             <button className={css.btn} onClick={onClick}>
                 <SimpleAppleIcon className={css.icon} />
+
                 <SimpleText>{text}</SimpleText>
             </button>
         );
