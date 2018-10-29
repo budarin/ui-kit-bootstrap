@@ -34,5 +34,8 @@
     },
     "scripts": {
         "type-check": "tsc"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
     }
 }
