@@ -12,6 +12,7 @@
         "test": "prun test",
         "test:watch": "prun test-watch",
         "type-check": "lerna run type-check",
+        "audit-fix": "prun audit-fix",
         "upgrade": "prun upgrade"
     },
     "repository": {
