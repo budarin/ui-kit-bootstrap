@@ -27,7 +27,7 @@
     },
     {
         "name": "upgrade",
-        "command": "lerna exec npm-upgrade && npm-upgrade && check-dependencies --install"
+        "command": "lerna exec npm-upgrade && npm-upgrade && check-dependencies --install && npm audit fix"
     },
     {
         "name": "bootstrap",
