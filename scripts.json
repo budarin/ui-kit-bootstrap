@@ -32,5 +32,9 @@
     {
         "name": "bootstrap",
         "command": "lerna bootstrap --hoist"
+    },
+    {
+        "name": "audit-fix",
+        "command": "npm audit fix"
     }
 ]
