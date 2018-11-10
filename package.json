@@ -28,6 +28,12 @@
         "url": "https://github.com/budarin/ui-kit-bootstrap/issues"
     },
     "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,json,css,md}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
     "devDependencies": {
         "@types/jest": "^23.3.9",
         "@types/node": "^10.12.5",
@@ -35,9 +41,11 @@
         "@types/react-dom": "^16.0.9",
         "@types/react-test-renderer": "^16.0.3",
         "check-dependencies": "^1.1.0",
+        "husky": "^1.1.3",
         "identity-obj-proxy": "^3.0.0",
         "jest": "^23.6.0",
         "lerna": "^3.4.3",
+        "lint-staged": "^8.0.4",
         "prun": "^1.0.1",
         "react": "^16.6.1",
         "react-dom": "^16.6.1",
