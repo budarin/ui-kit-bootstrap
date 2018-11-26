@@ -22,6 +22,6 @@
         "css"
     ],
     "peerDependencies": {
-        "react": "^16.5.2"
+        "react": "^16.7.0-alpha.2"
     }
 }

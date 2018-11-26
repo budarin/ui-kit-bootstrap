@@ -22,11 +22,11 @@
         "simple component"
     ],
     "peerDependencies": {
-        "react": "^16.5.2"
+        "react": "^16.7.0-alpha.2"
     },
     "devDependencies": {
-        "react": "^16.6.1",
-        "react-test-renderer": "^16.6.1"
+        "react": "^16.7.0-alpha.2",
+        "react-test-renderer": "^16.7.0-alpha.2"
     },
     "dependencies": {
         "budarin-simple-apple-icon": "^1.0.11",
