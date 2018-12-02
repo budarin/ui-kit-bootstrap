@@ -1,3 +1,4 @@
+-   перейти на бабель для соглассованной компиляции кода с кододом сайта
 -   storybook or selfwrited web site?
 -   typechecking
 -   написать свой трансформер для css https://jestjs.io/docs/en/webpack.html исользуя jest-css-modules-transformя
