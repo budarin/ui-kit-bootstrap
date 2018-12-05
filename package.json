@@ -13,7 +13,8 @@
         "test:watch": "prun test-watch",
         "type-check": "lerna run type-check",
         "audit-fix": "prun audit-fix",
-        "upgrade": "prun upgrade"
+        "upgrade": "prun upgrade",
+        "remove-deleted-branches": "prun git-remove-deleted-branches"
     },
     "repository": {
         "type": "git",
@@ -31,8 +32,8 @@
     "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
     "devDependencies": {
         "@types/jest": "^23.3.10",
-        "@types/node": "^10.12.11",
-        "@types/react": "^16.7.11",
+        "@types/node": "^10.12.12",
+        "@types/react": "^16.7.13",
         "@types/react-dom": "^16.0.11",
         "@types/react-test-renderer": "^16.0.3",
         "check-dependencies": "^1.1.0",
