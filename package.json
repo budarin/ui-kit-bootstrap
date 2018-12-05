@@ -2,6 +2,9 @@
     "name": "ui-kit-bootstrap",
     "version": "1.0.0",
     "description": "ui-kit bootstrap",
+    "engines": {
+        "node": ">=11.0.0"
+    },
     "scripts": {
         "clean": "prun clean",
         "build": "prun build",
