@@ -6,3 +6,4 @@
 -   написать stories для компонент или сделать свое приложение ?
 -   использовать macro для инлайна изображений и svg
 -   перейти на хуки
+-   add comittezen https://habr.com/ru/company/yandex/blog/431432/

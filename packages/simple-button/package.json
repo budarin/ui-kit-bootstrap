@@ -1,6 +1,6 @@
 {
     "name": "budarin-simple-button",
-    "version": "1.2.35",
+    "version": "1.2.38",
     "description": "simple button component",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
@@ -25,17 +25,18 @@
         "react": "^16.7.0-alpha.2"
     },
     "devDependencies": {
-        "react": "^16.8.1",
-        "react-test-renderer": "^16.8.1"
+        "react": "^16.8.3",
+        "react-test-renderer": "^16.8.3"
     },
     "dependencies": {
-        "budarin-simple-apple-icon": "^1.0.13",
-        "budarin-simple-text": "^1.2.16"
+        "budarin-simple-apple-icon": "^1.0.16",
+        "budarin-simple-text": "^1.2.19"
     },
     "scripts": {
         "type-check": "tsc"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
-    }
+    },
+    "gitHead": "f2d6383a7c530b5d5e728fd19eab54b03757bbb7"
 }

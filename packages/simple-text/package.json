@@ -1,6 +1,6 @@
 {
     "name": "budarin-simple-text",
-    "version": "1.2.16",
+    "version": "1.2.19",
     "description": "simple text component",
     "homepage": "https://github.com/budarin/ui-kit-bootstrap",
     "repository": {
@@ -25,10 +25,11 @@
         "react": "^16.7.0-alpha.2"
     },
     "devDependencies": {
-        "react": "^16.8.1",
-        "react-test-renderer": "^16.8.1"
+        "react": "^16.8.3",
+        "react-test-renderer": "^16.8.3"
     },
     "scripts": {
         "type-check": "tsc"
-    }
+    },
+    "gitHead": "f2d6383a7c530b5d5e728fd19eab54b03757bbb7"
 }
