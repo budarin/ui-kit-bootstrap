@@ -6,6 +6,7 @@
         "node": ">=11.0.0"
     },
     "scripts": {
+        "commitizen": "cz",
         "clean": "prun clean",
         "build": "prun build",
         "bootstrap": "prun bootstrap",
@@ -34,35 +35,43 @@
     },
     "homepage": "https://github.com/budarin/ui-kit-bootstrap#readme",
     "devDependencies": {
-        "@types/jest": "^24.0.0",
-        "@types/node": "^10.12.24",
-        "@types/react": "^16.8.2",
-        "@types/react-dom": "^16.8.0",
-        "@types/react-test-renderer": "^16.8.0",
+        "@types/jest": "^24.0.9",
+        "@types/node": "^11.9.6",
+        "@types/react": "^16.8.6",
+        "@types/react-dom": "^16.8.2",
+        "@types/react-test-renderer": "^16.8.1",
         "check-dependencies": "^1.1.0",
         "husky": "^1.3.1",
         "identity-obj-proxy": "^3.0.0",
         "jest": "^24.1.0",
-        "lerna": "^3.11.0",
+        "lerna": "^3.13.1",
         "prettier": "^1.16.4",
         "pretty-quick": "^1.10.0",
         "prun": "^1.0.1",
-        "react": "^16.8.1",
-        "react-dom": "^16.8.1",
-        "react-test-renderer": "^16.8.1",
+        "react": "^16.8.3",
+        "react-dom": "^16.8.3",
+        "react-test-renderer": "^16.8.3",
         "rimraf": "^2.6.3",
         "stylelint": "^9.10.1",
         "stylelint-a11y": "^1.1.10",
         "stylelint-config-css-modules": "^1.3.0",
-        "stylelint-config-prettier": "^4.0.0",
+        "stylelint-config-prettier": "^5.0.0",
         "stylelint-config-recommended": "^2.1.0",
         "stylelint-no-unsupported-browser-features": "^3.0.2",
         "stylelint-order": "^2.0.0",
-        "ts-jest": "^23.10.5",
-        "tslint": "^5.12.1",
+        "ts-jest": "^24.0.0",
+        "tslint": "^5.13.1",
         "tslint-config-prettier": "^1.18.0",
         "tslint-react": "^3.6.0",
-        "typescript": "^3.3.3"
+        "typescript": "^3.3.3333"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        },
+        "cz-customizable": {
+            "config": "config/git/commitizen.js"
+        }
+    }
 }
