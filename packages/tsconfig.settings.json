@@ -1,16 +1,17 @@
 {
     "compilerOptions": {
-        "resolveJsonModule": true,
+        "resolveJsonModule": false,
         "composite": true,
         "target": "esnext",
-        "module": "commonjs",
+        "module": "esnext",
+        "moduleResolution": "node",
         "declaration": true,
         "declarationMap": true,
         "sourceMap": true,
         "strict": true,
         "jsx": "react",
 
-        "importHelpers": true,
+        "importHelpers": false,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
 
