@@ -1,9 +1,9 @@
 const base = require('../../jest.config.base.js');
 const pack = require('./package');
-const packageName = pack.name;
+const { name } = require('./package');
 
 module.exports = {
     ...base,
-    name: packageName,
-    displayName: packageName,
+    name,
+    displayName: name,
 };
