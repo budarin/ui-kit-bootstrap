@@ -1,12 +1,12 @@
 module.exports = {
     roots: ['<rootDir>'],
     transform: {
-        '^.+\\.ts$': 'ts-jest',
-        '^.+\\.tsx$': 'ts-jest',
+        '^.+\\.(ts|tsx)$': 'ts-jest',
+        '^.+\\.(js|jsx)$': 'babel-jest',
     },
-    testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts?|tsx?)?$',
+    testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx|js|jsx)?$',
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-    coveragePathIgnorePatterns: ['(tests/.*.mock).(|ts?|tsx?)$'],
+    coveragePathIgnorePatterns: ['(tests/.*.mock).(|ts|tsx|js|jsx)$'],
     verbose: true,
     testPathIgnorePatterns: ['/__snapshots__/'],
     moduleNameMapper: {
@@ -15,11 +15,15 @@ module.exports = {
         '\\.(css)$': 'identity-obj-proxy',
     },
     collectCoverage: true,
-    collectCoverageFrom: ['**/*.{ts,tsx}', '!**/*.d.ts', '!<rootDir>/lib/'],
+    collectCoverageFrom: ['**/*.{ts,tsx,js,jsx}', '!**/*.d.ts', '!<rootDir>/lib/'],
     globals: {
         'process.env.__DEV__': true,
         'process.env.__PROD__': false,
         'process.env.__BROWSER__': false,
         'process.env.__SERVER__': false,
+    },
+    testEnvironmentOptions: {
+        // Need this to have jsdom loading images.
+        resources: 'usable',
     },
 };

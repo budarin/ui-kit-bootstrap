@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import SimpleText from 'budarin-simple-text';
 import SimpleAppleIcon from 'budarin-simple-apple-icon';
 
