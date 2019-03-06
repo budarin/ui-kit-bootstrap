@@ -8,3 +8,4 @@
 -   перейти на хуки
 -   add comittezen https://habr.com/ru/company/yandex/blog/431432/
 -   настроить ts-jest он не настроен
+-   восстановить huski
