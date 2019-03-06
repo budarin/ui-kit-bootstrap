@@ -24,6 +24,7 @@ module.exports = {
         'ts-jest': {
             tsConfig: {
                 module: 'commonjs',
+                target: 'es5',
             },
         },
     },

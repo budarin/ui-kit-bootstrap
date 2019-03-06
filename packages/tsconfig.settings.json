@@ -22,4 +22,5 @@
         "noFallthroughCasesInSwitch": true
     },
     "exclude": ["node_modules", "lib", "**/*.spec.ts", "__tests__"]
+    //  ?? "include": ["node_modules/budarin-simple-apple-icon", "node_modules/budarin-simple-text"]
 }
